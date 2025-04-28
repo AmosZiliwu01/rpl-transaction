@@ -3,7 +3,7 @@
 
     <div class="row">
         <div class="col-lg-12 px-md-4">
-            <h1 class="h3 mb-2 text-gray-800">App Trasaction</h1>
+            <h1 class="h3 mb-2 text-gray-800">App Transaction</h1>
         </div>
         <div class="col-lg-12 px-md-4">
             <input type="text" id="input-barcode" name="barcode" class="form-control" placeholder="Scan Barcode"/>
