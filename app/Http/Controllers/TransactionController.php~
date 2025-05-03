@@ -23,6 +23,7 @@ class TransactionController extends Controller
     public function searchProduct(Request $request)
     {
         $product = Product::query()->where('barcode', $request->barcode)->first();
+        dd($product);
         if ($product === null) {
             return response()->json([], 404);
         }
